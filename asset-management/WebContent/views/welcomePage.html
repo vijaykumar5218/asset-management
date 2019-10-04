@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bootstrap Example</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<h2>Horizontal form</h2>
+		<form class="form-horizontal" action="action_page  method="post">
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="area">Area 
+					:</label>
+				<div class="col-sm-8">
+					<input type="text" class="form-control" id="area"
+						placeholder="inspector name" name="area">
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="inspector">Inspector
+					:</label>
+				<div class="col-sm-8">
+					<input type="text" class="form-control" id="inspector"
+						placeholder="inspector name" name="inspector">
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="persons">No Of
+					Persons:</label>
+				<div class="col-sm-8">
+					<input type="number" class="form-control" id="persons"
+						placeholder="Enter Num of persons" name="persons">
+				</div>
+			</div>
+
+			<div class="form-group">
+			<label class="control-label col-sm-2" for="noofcells">No Of
+					Cells:</label>
+				
+					<div class="col-sm-8"> 
+					<label class="radio-inline"> <input
+						type="radio" name="optradio" checked>2
+					</label> <label class="radio-inline"> <input type="radio"
+						name="optradio">4
+					</label> <label class="radio-inline"> <input type="radio"
+						name="optradio">8
+					</label>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<div class="col-sm-offset-2 col-sm-10">
+					<button type="submit" class="btn btn-default">Submit</button>
+				</div>
+			</div>
+
+		</form>
+	</div>
+
+</body>
+</html>
